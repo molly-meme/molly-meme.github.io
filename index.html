@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>怎么说？</title>
+    <style>
+        /* 这里是一些让页面变好看的样式，你只管复制，不用管 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 24px;
+            padding: 48px 40px;
+            max-width: 480px;
+            width: 90%;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            backdrop-filter: blur(10px);
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #667eea;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            color: #fff;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .title {
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+        p {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 24px;
+            font-size: 15px;
+        }
+        .links a {
+            display: inline-block;
+            background: #f0f2f5;
+            color: #333;
+            padding: 10px 24px;
+            margin: 4px 6px;
+            border-radius: 40px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            transition: 0.2s;
+        }
+        .links a:hover {
+            background: #667eea;
+            color: #fff;
+            transform: translateY(-2px);
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #aaa;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- 头像：把"我"字改成你的名字首字母，或者直接换成👤表情 -->
+        <div class="avatar">LXY</div>
+        
+        <!-- ★★★ 把这里的文字改成你自己的 ★★★ -->
+        <h1>祝你生日快乐！！！</h1>
+        <div class="title">好简陋啊。</div>
+        <p>
+            祝福你的小站<br>
+            主播，你热爱生活哦。
+        </p>
+        
+        <div class="links">
+            <a href="#">生日快乐</a>
+            <a href="#">生日快乐</a>
+            <a href="#">生日快乐</a>
+            <a href="#">生日快乐</a>
+        </div>
+        <div class="footer">
+            © 2026 JEAP · 用手指搭建
+        </div>
+    </div>
+</body>
+</html>
