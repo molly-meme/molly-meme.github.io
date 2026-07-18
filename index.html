@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>怎么说？</title>
     <style>
-        /* 这里是一些让页面变好看的样式，你只管复制，不用管 */
         * {
             margin: 0;
             padding: 0;
@@ -13,7 +12,7 @@
         }
         body {
             font-family: -apple-system, "Microsoft YaHei", sans-serif;
-            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            background: linear-gradient(135deg, #e9d5ff 0%, #fbc7d3 100%);
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -86,26 +85,30 @@
 </head>
 <body>
     <div class="card">
-        <!-- 头像：把"我"字改成你的名字首字母，或者直接换成👤表情 -->
-        <div class="avatar">LXY</div>
-        
-        <!-- ★★★ 把这里的文字改成你自己的 ★★★ -->
-        <h1>祝你生日快乐！！！</h1>
-        <div class="title">好简陋啊。</div>
+        <h1>🎂 祝你生日快乐！！！</h1>
+        <div class="title">✨ 我想你现在一定很震惊吧？✨</div>
         <p>
-            祝福你的小站<br>
-            主播，你热爱生活哦。
+            我想用这个来祝你生日快乐^_^<br>
+            祝愿你一直热爱生活哦！
         </p>
-        
+
         <div class="links">
-            <a href="#">生日快乐</a>
-            <a href="#">生日快乐</a>
-            <a href="#">生日快乐</a>
-            <a href="#">生日快乐</a>
+            <!-- 每个链接都添加了 onclick 和 return false -->
+            <a href="#" onclick="showMessage('🎂 生日快乐！我的好朋友！'); return false;">生日快乐</a>
+            <a href="#" onclick="showMessage('🌟 我想这也算生日礼物吧？反正我要祝你生日快乐！'); return false;">生日快乐</a>
+            <a href="#" onclick="showMessage('🎈 吹蜡烛，许个愿吧！'); return false;">生日快乐</a>
+            <a href="#" onclick="showMessage('💖 爱你……'); return false;">生日快乐</a>
         </div>
         <div class="footer">
-            © 2026 JEAP · 用手指搭建
+            © 114514年 Molly · 用手指搭建
         </div>
     </div>
+
+   <!-- 彩蛋脚本 -->
+    <script>
+        function showMessage(text) {
+            alert(text);
+        }
+    </script> 
 </body>
 </html>
